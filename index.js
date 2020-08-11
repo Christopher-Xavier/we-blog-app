@@ -10,12 +10,13 @@ import Nav from '.Components/navBar';
 ReactDOM.render(
    <BrowserRouter>
    <Nav />
+   <Registration />
        <App />
        <Nav />
        <LoginContext />
        <Registration />
      </BrowserRouter>,
-      document.getElementById('root')
+      document.getElementById('#root')
     );
 
     serviceWorker.unregister()

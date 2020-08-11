@@ -3,7 +3,10 @@ import React from 'react';
 function App() {
   return (
     <main className='App'>
-      constructor
+    constructor
+    props
+    body
+    form
     </main>
   );
 }
